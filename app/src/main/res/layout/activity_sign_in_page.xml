@@ -38,6 +38,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="LogIn"
+            android:onClick="logIn"
             android:id="@+id/button" />
 
         <Button
@@ -45,7 +46,14 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Sign Up"
+            android:onClick="signUp"
             android:id="@+id/button2" />
 
     </LinearLayout>
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
 </LinearLayout>
