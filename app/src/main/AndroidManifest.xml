@@ -3,9 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="yezhenwang.newgenerationspotify">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-sdk tools:overrideLibrary="com.facebook"/>
-    <uses-sdk tools:overrideLibrary="android.support.customtabs"/>
+    <uses-sdk tools:overrideLibrary="com.facebook" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-sdk tools:overrideLibrary="android.support.customtabs" />
 
     <application
         android:allowBackup="true"
@@ -13,25 +15,23 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
 
         <activity android:name=".SignInPage">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-
-        <activity android:name="com.facebook.FacebookActivity"
-            android:configChanges=
-                "keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar"
-            android:label="@string/app_name" />
-
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity android:name=".MainPageActivity"></activity>
     </application>
 
 </manifest>
