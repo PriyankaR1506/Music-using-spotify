@@ -26,7 +26,12 @@ repositories {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
+<<<<<<< HEAD
     compile 'com.android.support:appcompat-v7:24.1.1'
     compile 'com.facebook.android:facebook-android-sdk:4.+'
     compile 'com.android.support:support-v4:24.1.1'
+=======
+    compile 'com.android.support:appcompat-v7:24.0.0'
+    compile 'com.facebook.android:facebook-android-sdk:4.+'
+>>>>>>> 92d146395969b4e0906412cb729b5da00aec5de0
 }

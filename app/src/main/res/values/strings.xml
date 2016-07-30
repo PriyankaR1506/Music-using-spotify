@@ -1,7 +1,10 @@
 <resources>
     <string name="app_name">NewGenerationSpotify</string>
     <string name="facebook_app_id">611959985640260</string>
+<<<<<<< HEAD
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+=======
+>>>>>>> 92d146395969b4e0906412cb729b5da00aec5de0
 </resources>

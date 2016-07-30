@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/NewGenerationSpotify-master.iml" filepath="$PROJECT_DIR$/NewGenerationSpotify-master.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/NewGenerationSpotify.iml" filepath="$PROJECT_DIR$/NewGenerationSpotify.iml" />
+>>>>>>> 92d146395969b4e0906412cb729b5da00aec5de0
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

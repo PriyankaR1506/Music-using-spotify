@@ -5,8 +5,14 @@
 
     <uses-sdk tools:overrideLibrary="com.facebook" />
 
+<<<<<<< HEAD
     <uses-permission android:name="android.permission.INTERNET"
         tools:overrideLibrary="android.support.customtabs" />
+=======
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-sdk tools:overrideLibrary="android.support.customtabs" />
+>>>>>>> 92d146395969b4e0906412cb729b5da00aec5de0
 
     <application
         android:allowBackup="true"

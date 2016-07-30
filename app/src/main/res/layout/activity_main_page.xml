@@ -17,6 +17,7 @@
         android:text="What&apos;s up, "
         android:id="@+id/greetings"
         android:layout_gravity="center_horizontal" />
+<<<<<<< HEAD
 
     <fragment
         android:layout_width="match_parent"
@@ -24,4 +25,6 @@
         android:name="yezhenwang.newgenerationspotify.ArtistPicFragment"
         android:id="@+id/artist_pic_fragment"
         android:layout_gravity="center_horizontal" />
+=======
+>>>>>>> 92d146395969b4e0906412cb729b5da00aec5de0
 </LinearLayout>
