@@ -5,14 +5,19 @@
 
     <uses-sdk tools:overrideLibrary="com.facebook" />
 
-<<<<<<< HEAD
-    <uses-permission android:name="android.permission.INTERNET"
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission
+        android:name="android.permission.INTERNET"
         tools:overrideLibrary="android.support.customtabs" />
-=======
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        tools:overrideLibrary="android.support.customtabs" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <uses-sdk tools:overrideLibrary="android.support.customtabs" />
->>>>>>> 92d146395969b4e0906412cb729b5da00aec5de0
 
     <application
         android:allowBackup="true"
@@ -36,7 +41,14 @@
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:label="@string/app_name"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-        <activity android:name=".MainPageActivity"></activity>
+        <activity android:name=".MainPageActivity" />
+        <activity
+            android:name="com.spotify.sdk.android.authentication.LoginActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity android:name=".PlaySampleTrack" />
+        <activity android:name=".SearchActivity" />
+        <activity android:name=".ArtistActivity" />
+        <activity android:name=".FragmentMainPage" />
     </application>
 
 </manifest>
